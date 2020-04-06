@@ -1,0 +1,10 @@
+linea = str(input(''))
+splita = linea.split()
+x1 = float(splita[0])
+y1 = float(splita[1])
+lineb = str(input(''))
+splitb = lineb.split()
+x2 = float(splitb[0])
+y2 = float(splitb[1])
+distance = (((x2 - x1) ** 2) + (y2 - y1) ** 2) ** 0.5
+print('%0.4f' %distance)
