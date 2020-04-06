@@ -1,0 +1,6 @@
+A = str(input(''))
+B = str(input(''))
+C = str(input(''))
+print('A = ', A, ', ', 'B = ', B, ', ',  'C = ', C, sep = '')
+print('A = ', B, ', ', 'B = ', C, ', ',  'C = ', A, sep = '')
+print('A = ', C, ', ', 'B = ', A, ', ',  'C = ', B, sep = '')
